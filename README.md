@@ -1,2 +1,2 @@
-# systemverilog-exercise
-自学systemverilog，代码练习
+# systemverilog verification flow
+Lab Guide of Router
