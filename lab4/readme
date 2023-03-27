@@ -1,0 +1,6 @@
+OOP Encapsulation
+TODO:
+1.Encapsulate packet information into a Packet class
+2.Utilize randomization in Packet class to randomly generate source address,destination address and payload
+3.Create two Packet objects,one for the input into the DUT,the other for reconstructing the output of the DUT
+4.Use the compare() method embedded in the Packet objects to verify the correctness of DUT operation
