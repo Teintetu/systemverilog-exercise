@@ -1,0 +1,6 @@
+Broad Spectrum Verification
+TODO:
+1.Build a generator transactor class
+2.Build a Driver class
+3.Build a Receiver class
+4.Expand the testbanch to drive and monitor all input and output ports concurrently
