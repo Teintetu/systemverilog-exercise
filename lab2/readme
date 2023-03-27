@@ -1,0 +1,5 @@
+Sending Packets Through Router
+to do:
+1.Generate Packet Data
+2.Creat send packet routines
+3.Extend the TB from lab1 to send a packet from an input port through an output port
