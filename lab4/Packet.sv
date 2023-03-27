@@ -40,7 +40,7 @@ endfunction:compare
 
 
 function void Packet::display(string prefix);
-    $display("[$s]%t %s = %0d, da = %0d",prefix,$realtime,name,sa,da)
+    $display("[$s]%t %s = %0d, sa=%0d, da = %0d",prefix,$realtime,name,sa,da)
     foreach(payload[i])
         $display("[$s]%t %s payload[%0d] = %0d",prefix,$realtime,name,i,payload[i]);
 endfunction:display
