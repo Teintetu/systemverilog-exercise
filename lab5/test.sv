@@ -29,7 +29,7 @@ program automatic test(router_io.TB rtr_io);
         foreach (sem[i])
             sem[i] = new(1);
         foreach (drvr[i])
-            drvr[i] = new($sformatf("drvr[%0d]",i),i,sem,gen.out_box[i],sb.Driver,rtr_io);
+            drvr[i] = new($sformatf("drvr[%0d]",i),i,sem,gen.out_box[i],sb.driver_mbox,rtr_io);
         foreach (rcvr[i])
             rcvr[i] = new($sformatf("rcvr[%0d]",i),i,sb.receiver_mbox,rtr_io);
 
