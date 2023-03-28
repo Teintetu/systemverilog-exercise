@@ -1,0 +1,4 @@
+Functional Coverage,Using Packages,Standardizing Environments
+1.Implement Functional Coverage to determine when you are done with simulation
+2.Define Packages for reuse
+3.Import Packages for use in a test
